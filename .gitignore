@@ -1,0 +1,27 @@
+# Memory dumps - never commit these
+dumps/
+*.bin
+
+# Recovered and rebuilt image fragments from dump analysis
+recovered_images/
+rebuilt_images/*
+!rebuilt_images/best_match.png
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.env
+venv/
+env/
+
+# Archives
+*.zip
+*.tar.gz
+
+# Word documents - use PDF instead
+*.docx
+
+# OS
+.DS_Store
+Thumbs.db
